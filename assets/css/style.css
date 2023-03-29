@@ -1,0 +1,55 @@
+body {
+  font-family: "Montserrat", 'Segoe UI';
+}
+
+/* Top Bar Start */
+#topbar {
+  height: 40px;
+}
+#news-container{
+  position: absolute;
+  height: 40px;
+  width: 160px;
+  background-color: #e97100;
+  border-radius: 0 0 2rem 0;
+}
+#news{
+  padding-top: 8px;
+  text-align: end;
+}
+#text-news{
+  padding-top: 8px;
+  margin-left: 150px;
+}
+/* Top bar End */
+
+/* Header Logo School */
+#header{
+  color: #fff;
+  background-color: blue;
+  position: absolute;
+  z-index: 9;
+  top: 40px;
+  border-radius: 0 0 2rem 2rem;
+}
+#logo-wrap{
+  padding-left: 190px;
+  padding-bottom: 10px;
+}
+#header img{
+  width: 4rem;
+}
+/* End header */
+
+
+/* Navbar Start */
+#nav-wrap{
+  position: absolute;
+  bottom: 70%;
+  z-index: 999;
+
+}
+#nav-bar{
+  margin-left: 170px;
+}
+/* Navbar End */
