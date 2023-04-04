@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eaeaea;
+  cursor: help;
+}
+/* Berita */
+#news .section-title {
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(7, 7, 94);
+  padding: 20px 0;
+}
+#news .section-title img {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+/* Awal Card */
+#news {
+  float: left;
+  clear: both;
+  width: 70%;
+  padding: 10px;
+  background-color: transparent;
+}
+#news .col {
+  margin-right: 10px;
+  width: 450px;
+  height: 450px;
+}
+#news .card {
+  background-color: transparent;
+  border-radius: 1rem 1rem 1rem 1rem;
+  margin-left: -5px;
+  background-color: #eaeaea;
+}
+#news .col img{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+#news .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(7, 7, 94);
+}
+#news .card-link {
+  font-size: 14px;
+  font-weight: 200;
+  color: rgb(7, 7, 94);
+}
+#news .card-link span {
+  font-size: 10px;
+  font-weight: 100;
+  color: rgb(7, 7, 94);
+  margin-left: 20px;
+}
+#news .card-text {
+  font-size: 14px;
+}
+/* Akhir Card */
+/* Awal Sidebar */
+.sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: transparent;
+}
+.sidebar-title h6 {
+  padding: 15px;
+  font-weight: 100;
+  color: rgb(7, 7, 94);
+  font-weight: bold;
+}
+.container {
+  position: relative;
+  top: 50px;
+  right: 10px;
+  padding: 2px 0 2px 0;
+  color: white;
+  border-radius: 0 0 1rem 0; 
+  margin-left: 85px;
+  background-color: white;
+  /* margin-top: -40px; */
+}
+.container h6 a {
+  text-decoration: none;
+  padding-left: 15px;
+  text-align: justify;
+  color: rgb(7, 7, 94);
+  font-weight: bold;
+  letter-spacing: normal;
+}
+.container p {
+  font-size: 14px;
+  padding-left: 15px;
+  text-align: start;
+  color: black;
+  font-weight: 300;
+}
+.card-1 {
+  position: relative;
+  width: 70px;
+  height: 90px;
+  color: white;
+  background-color: rgb(235, 235, 17);
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-top: -40px;
+}
+.card-header {
+  position: relative;
+  padding: 5px 10px;
+  background-color: rgb(7, 7, 94);
+  border-radius: 5px 5px 0 0;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.card-body-1 {
+  margin-top: 0;
+}
+.card-title-1 {
+  margin-top: 5px;
+  line-height: -1rem;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  /* word-wrap: break-word; */
+}
+/* Akhir Sidebar */
+/* Awal Button */
+.container-fluid {
+  display: grid;
+  color: white;
+  background-color: rgb(7, 7, 94);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.title {
+  position: relative;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.text {
+  position: relative;
+  width: 70%;
+  text-align: left;   
+  font-size: 12px;
+  font-weight: 200;
+  padding-left: 20px;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+.button-1 {
+  position: relative;
+  border: transparent;
+  border-radius: 5px 5px 5px 5px;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(248, 136, 9);
+  margin-left: 60rem;
+  margin-top: -90px;
+}
+.button-2 {
+  border: transparent;
+  border-radius: 5px 5px 5px 5px;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(11, 109, 148);
+  margin-left: 60rem;
+  margin-top: -30px;
+}
+.clear {
+  clear: left;
+}
+/* Akhir Button */
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
